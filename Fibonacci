@@ -12,7 +12,7 @@ def fibonacci(sayi):
         for i in range(sayi):
             fibonacci.append(b)
             a,b = b,a+b
-        if (sayi in fibo):
+        if (sayi in fibonacci):
             return(True)
         else:
             return(False)
