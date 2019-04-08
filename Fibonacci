@@ -1,0 +1,18 @@
+def fibonacci(sayi):
+    """""""""""""""""""""""""""""""""""""""""""""
+        Look Fibonacci series for
+        "sayi"
+    """""""""""""""""""""""""""""""""""""""""""""
+    if (sayi == 1) or (sayi == 2) or (sayi == 3):
+        print(True)
+    else:
+        fibonacci = [1]
+        a = 1
+        b = 1
+        for i in range(sayi):
+            fibonacci.append(b)
+            a,b = b,a+b
+        if (sayi in fibo):
+            return(True)
+        else:
+            return(False)
